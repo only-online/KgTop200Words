@@ -54,3 +54,22 @@ h3 span
 .ui-li .ui-icon{
 	margin-right: 30px;
 }
+
+
+#prev{
+	width: 30px;
+	height: 50px;
+}
+
+#prev .ui-icon{
+	margin: 15px 0 0 6px;
+}
+
+#next{
+	width: 30px;
+	height: 50px;
+}
+
+#next .ui-icon{
+	margin: 15px 0 0 6px;
+}
