@@ -4,6 +4,8 @@
 // Put your custom code here
 $('document').ready(function () {
 
+  
+  
 	//  run on page start to pronounce first word
  
 	 $(document).on('swipeleft swiperight',function(event, data){
