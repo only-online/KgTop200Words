@@ -1,0 +1,56 @@
+/* Put your custom CSS here */
+.ui-block-b h3{
+	margin: 0.3em 0;
+	font-size: 1.7em;
+}
+
+#ennum{
+	color: blueviolet;
+}
+
+#kgnum{
+	color: green;
+}
+
+#runum{
+	color: red;
+}
+
+#mainnum{
+	font-size:50px;
+	color: hsl(80, 70%, 55%);
+	text-shadow: -1px -1px 0 hsl(80, 70%, 35%),
+	             -2px -2px 1px hsl(80, 70%, 35%);
+	margin-bottom: 0px;
+}
+
+#numberimage
+{
+	border: 2px solid rgb(186, 186, 190);
+	padding: 10px;
+	background-color: white;
+}
+
+h4{
+	color: #999;
+	font-size: 30px;
+	margin-top: 0px;
+}
+
+
+h3 span
+{
+	color: #999;
+	font-size: small;
+}
+
+
+.ui-listview-inset .ui-li{
+	margin: 4px;
+	width: 350px;
+	float: left;
+}
+
+.ui-li .ui-icon{
+	margin-right: 30px;
+}

@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1" />
+        <meta name="apple-mobile-web-app-capable" content="yes" />
+        <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+        <title>
+        </title>
+		
+		<link rel="stylesheet" href="css/jquery.mobile.structure-1.2.0.min.css" />
+		<link rel="stylesheet" href="css/jquery.mobile-1.2.0.min.css" />
+		<link rel="stylesheet" href="css/custom.css" />
+		
+		<script src="js/jquery-1.7.1.min.js"></script>
+		<script src="js/jquery.mobile-1.2.0.min.js"></script>
+        <link rel="stylesheet" href="css/my.css" />	        
+		<script src="js/my.js"></script>
+		<script>
+	    var number;
+	     number = 1; // start global declaration for numbers   - start from 1 
+		 var maxslides = 9;  // maimum number of words to show
+	    nText = new Array(
+	    {"main":"text1","img":"0","mtext":"ноль"},
+	    {"main":"кызыл","img":"red","mtext":"Красный<br/>Red"},
+	    {"main":"сары","img":"yellow","mtext":"Желтый<br/>Yellow"},
+	    {"main":"күрөң","img":"brown","mtext":"Коричневый<br/>Brown"},
+	    {"main":"көк","img":"blue","mtext":"Синий<br/>Blue"},
+	    {"main":"ак","img":"white","mtext":"Белый<br/>White"},
+	    {"main":"кара","img":"black","mtext":"Черный<br/>Black"},
+		{"main":"жашыл","img":"green","mtext":"Зеленый<br/>Green"},
+		{"main":"кызгылт","img":"pink","mtext":"Розовый<br/>Pink"},
+	    {"main":"боз","img":"grey","mtext":"Серый<br/>Grey"}
+
+	    );
+				
+		</script>
+	   
+    </head>
+    <body>
+		  
+       <!-- <div data-role="page" id="numbers" data-add-back-btn="true">  -->
+			<div data-role="page" id="page2" >
+			<div data-role="header"> 
+				<a href="." data-rel="back" data-icon="back" data-iconpos="notext">&nbsp;</a> <h1> Restaurant Picker</h1>
+			</div> 
+            
+			<div data-role="content">
+				
+				
+                <a href="#" id="play">
+					<div style=" text-align:center">                  
+                        <img id="numberimage" src="assets/red.jpg" alt="image" style="height: 250px;" />                   
+					</div>
+                </a>
+                <div class="ui-grid-b">
+                    <div class="ui-block-a" style="text-align: center; width:10%;">
+						<a href="#prev" id="prev" style="" data-rel="next" data-role="button" data-icon="arrow-l" data-iconpos="notext">&nbsp;</a>
+                        
+                    </div>
+                    <div class="ui-block-b" style="text-align: center; width:80%;">
+                        <h3 id="mainnum">кызыл</h3>
+						<h4 id="text">Красный<br/>Red</h3>
+                    </div>
+                    <div class="ui-block-c" style="text-align: center; width:10%;">
+						<a href="#next" id="next" style="float: right;" data-rel="next" data-role="button" data-icon="arrow-r" data-iconpos="notext" >&nbsp;</a>
+                        
+                    </div>
+                </div>
+            </div>
+        </div>
+		
+       
+    </body>
+    
+</html>
