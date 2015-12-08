@@ -1,4 +1,6 @@
 /* Put your custom CSS here */
+
+
 .ui-block-b h3{
 	margin: 0.3em 0;
 	font-size: 1.7em;
@@ -207,7 +209,7 @@ visibility: hidden;}
 	}
 	/* Main body section */
 	.side-body {
-	  margin-left: 310px;
+	  margin-left: 260px;
 	}
 	/* small screen */
 	@media (max-width: 768px) {
@@ -356,7 +358,7 @@ visibility: hidden;}
 	  }
 	  /* Slide side body*/
 	  .side-body {
-	    margin-left: 5px;
+	    margin-left: 0px;
 	    margin-top: 70px;
 	    position: relative;
 	    -moz-animation: bodyslideout 300ms forwards;
@@ -401,3 +403,49 @@ visibility: hidden;}
 	    margin: 0;
 	  }
 	}
+
+
+	.listitems li div{
+		padding-bottom: 20px;
+    background-color: white;
+    border-radius: 0px;
+    overflow: hidden;
+    box-shadow: 0 1px 3px grey;
+    padding: 20px 10px 20px 10px;
+    margin: 10px 0;
+	}
+
+.container-fluid{
+	background-color: #eee;
+	padding-left: 0px;
+}
+.listitems img{
+	width: 100px;
+	float: left;
+	margin: 0px 5px;
+}
+.listitems h3{
+	float: left;
+		margin: 0px 10px;
+}
+.listitems {
+	list-style: none;
+}
+
+.slide-in{
+	overflow-y: visible;
+}
+
+/* width menu collapsed */
+@media (max-width: 768px){
+	.listitems {
+		list-style: none;
+		padding-left: 0px;
+	}
+
+}
+
+.side-menu-container > .navbar-nav
+{
+	width: 300px;
+}
