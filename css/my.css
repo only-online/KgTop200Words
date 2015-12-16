@@ -1,6 +1,8 @@
 /* Put your custom CSS here */
 
-
+body{
+	    background-color: #EEE;
+}
 .ui-block-b h3{
 	margin: 0.3em 0;
 	font-size: 1.7em;
@@ -26,9 +28,9 @@
 	margin-bottom: 0px;
 }
 
-#numberimage
+#itemimage
 {
-	border: 2px solid rgb(186, 186, 190);
+	border: 0px solid rgb(186, 186, 190);
 	padding: 10px;
 	background-color: white;
 }
@@ -59,8 +61,8 @@ h3 span
 
 
 #prev{
-	width: 30px;
-	height: 50px;
+	/*width: 30px;
+	height: 50px;*/
 }
 
 #prev .ui-icon{
@@ -68,8 +70,8 @@ h3 span
 }
 
 #next{
-	width: 30px;
-	height: 50px;
+	/*width: 30px;
+	height: 50px;*/
 }
 
 #next .ui-icon{
@@ -109,6 +111,7 @@ visibility: hidden;}
 	}
 	.side-menu .navbar-nav li a {
 	  padding: 15px;
+		font-size: 20px;
 	}
 	.side-menu .navbar-nav li a .glyphicon {
 	  padding-right: 10px;
@@ -359,7 +362,7 @@ visibility: hidden;}
 	  /* Slide side body*/
 	  .side-body {
 	    margin-left: 0px;
-	    margin-top: 70px;
+	    margin-top: 60px;
 	    position: relative;
 	    -moz-animation: bodyslideout 300ms forwards;
 	    -o-animation: bodyslideout 300ms forwards;
@@ -405,22 +408,228 @@ visibility: hidden;}
 	}
 
 
-	.listitems li div{
-		padding-bottom: 20px;
+
+	.side-menu {
+		position: relative;
+		width: 100%;
+		height: 0;
+		border-right: 0;
+		border-bottom: 1px solid #e7e7e7;
+	}
+	.side-menu .brand-name-wrapper .navbar-brand {
+		display: inline-block;
+	}
+	/* Slide in animation */
+	@-moz-keyframes slidein {
+		0% {
+			left: -300px;
+		}
+		100% {
+			left: 10px;
+		}
+	}
+	@-webkit-keyframes slidein {
+		0% {
+			left: -300px;
+		}
+		100% {
+			left: 10px;
+		}
+	}
+	@keyframes slidein {
+		0% {
+			left: -300px;
+		}
+		100% {
+			left: 10px;
+		}
+	}
+	@-moz-keyframes slideout {
+		0% {
+			left: 0;
+		}
+		100% {
+			left: -300px;
+		}
+	}
+	@-webkit-keyframes slideout {
+		0% {
+			left: 0;
+		}
+		100% {
+			left: -300px;
+		}
+	}
+	@keyframes slideout {
+		0% {
+			left: 0;
+		}
+		100% {
+			left: -300px;
+		}
+	}
+	/* Slide side menu*/
+	/* Add .absolute-wrapper.slide-in for scrollable menu -> see top comment */
+	.side-menu-container > .navbar-nav.slide-in {
+		-moz-animation: slidein 300ms forwards;
+		-o-animation: slidein 300ms forwards;
+		-webkit-animation: slidein 300ms forwards;
+		animation: slidein 300ms forwards;
+		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+	}
+	.side-menu-container > .navbar-nav {
+		/* Add position:absolute for scrollable menu -> see top comment */
+		position: fixed;
+		left: -300px;
+		width: 300px;
+		top: 50px;
+		height: 100%;
+		border-right: 1px solid #e7e7e7;
+		background-color: #f8f8f8;
+		-moz-animation: slideout 300ms forwards;
+		-o-animation: slideout 300ms forwards;
+		-webkit-animation: slideout 300ms forwards;
+		animation: slideout 300ms forwards;
+		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+	}
+	/* Uncomment for scrollable menu -> see top comment */
+	/*.absolute-wrapper{
+				width:285px;
+				-moz-animation: slideout 300ms forwards;
+				-o-animation: slideout 300ms forwards;
+				-webkit-animation: slideout 300ms forwards;
+				animation: slideout 300ms forwards;
+				-webkit-transform-style: preserve-3d;
+				transform-style: preserve-3d;
+		}*/
+	@-moz-keyframes bodyslidein {
+		0% {
+			left: 0;
+		}
+		100% {
+			left: 300px;
+		}
+	}
+	@-webkit-keyframes bodyslidein {
+		0% {
+			left: 0;
+		}
+		100% {
+			left: 300px;
+		}
+	}
+	@keyframes bodyslidein {
+		0% {
+			left: 0;
+		}
+		100% {
+			left: 300px;
+		}
+	}
+	@-moz-keyframes bodyslideout {
+		0% {
+			left: 300px;
+		}
+		100% {
+			left: 0;
+		}
+	}
+	@-webkit-keyframes bodyslideout {
+		0% {
+			left: 300px;
+		}
+		100% {
+			left: 0;
+		}
+	}
+	@keyframes bodyslideout {
+		0% {
+			left: 300px;
+		}
+		100% {
+			left: 0;
+		}
+	}
+	/* Slide side body*/
+	.side-body {
+		margin-left: 0px;
+		margin-top: 60px;
+		position: relative;
+		-moz-animation: bodyslideout 300ms forwards;
+		-o-animation: bodyslideout 300ms forwards;
+		-webkit-animation: bodyslideout 300ms forwards;
+		animation: bodyslideout 300ms forwards;
+		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+	}
+	.body-slide-in {
+		-moz-animation: bodyslidein 300ms forwards;
+		-o-animation: bodyslidein 300ms forwards;
+		-webkit-animation: bodyslidein 300ms forwards;
+		animation: bodyslidein 300ms forwards;
+		-webkit-transform-style: preserve-3d;
+		transform-style: preserve-3d;
+	}
+	/* Hamburger */
+	.navbar-toggle {
+		border: 0;
+		float: left;
+		padding: 18px;
+		margin: 0;
+		border-radius: 0;
+		background-color: #f3f3f3;
+	}
+	/* Search */
+	#search .panel-body .navbar-form {
+		border-bottom: 0;
+	}
+	#search .panel-body .navbar-form .form-group {
+		margin: 0;
+	}
+	.navbar-header {
+		/* this is probably redundant */
+		position: fixed;
+		z-index: 3;
+		background-color: #f8f8f8;
+	}
+	/* Dropdown tweek */
+	#dropdown .panel-body .navbar-nav {
+		margin: 0;
+	}
+
+	.navbar-toggle {
+     display: block;
+}
+
+/* side menu experiment end */
+	.designbox1{
+
     background-color: white;
     border-radius: 0px;
     overflow: hidden;
     box-shadow: 0 1px 3px grey;
     padding: 20px 10px 20px 10px;
-    margin: 10px 0;
+    margin: 0px;
 	}
+	.designbox2{
+
+		background-color: white;
+		border-radius: 0px;
+		overflow: hidden;
+		box-shadow: 0 1px 3px grey;
+		padding: 5px;
+		margin: 10px 0;
+	}
+
 
 .container-fluid{
 	background-color: #eee;
 	padding-left: 0px;
 }
 .listitems img{
-	width: 100px;
+	height: 100px;
 	float: left;
 	margin: 0px 5px;
 }
@@ -445,7 +654,46 @@ visibility: hidden;}
 
 }
 
+@media (min-width: 768px){
+	.slide-in {
+		margin-left: -10px;
+	}
+
+	.listitems{
+		padding-left: 0px;
+	}
+}
+
 .side-menu-container > .navbar-nav
 {
 	width: 300px;
 }
+
+#branding h1{
+	display: none;
+}
+
+.navbar-nav{margin-top:0px !important;}
+.menulogo{  padding: 20px 0px;}
+
+.mp3player
+{
+	height: 1px;	width:10px;
+}
+
+
+.ui-btn{
+	-webkit-box-shadow: none;
+	-moz-box-shadow: none;
+	box-shadow: none;
+
+}
+.navbar-default .navbar-toggle{
+	width: 60px;
+	-webkit-box-shadow: 0 0 12px #fff !important;
+	-moz-box-shadow: 0 0 12px #fff !important;
+	box-shadow: 0 0 12px #fff !important;
+	border-radius: 0px !important;
+}
+
+.designbox2 a{font-size: 24px;}

@@ -43,7 +43,8 @@ $('document').ready(function () {
 	 	});
 
 
-    $('#play').click(function(){
+    $('.play').click(function(){
+
 			showTranslationAndSoundPlay();
 
 	  });
@@ -60,7 +61,7 @@ $('document').ready(function () {
 
 
 
-	  var ChangeImage = function($param) {   $('#numberimage').attr("src", 'assets/'+nText[$param].img+'.jpg');   };
+	  var ChangeImage = function($param) {   $('#itemimage').attr("src", 'assets/'+nText[$param].img+'.jpg');   };
 	  var ChangeText = function($param) {
 		  $('#mainnum').replaceWith('<h3 id="mainnum">'+nText[$param].main+'</h3>');
 		  $('#text').replaceWith('<h4 id="text">'+nText[$param].mtext+'</h4>');
@@ -104,6 +105,7 @@ $('document').ready(function () {
     	  var showTranslationAndSoundPlay = function() {
 
 		   $('#mainnum').css("visibility", "visible");
+
 		   PlaySound(number);
 
     		};
@@ -117,9 +119,10 @@ $('document').ready(function () {
 
 
   	  var PlaySound = function($param) {
-
+            //alert("111");
+            //$.playSounds('assets/1.mp3');
 	  	 $.playSounds('assets/'+nText[$param].img+'.mp3');
-
+         //alert("222");
   	   };
 
 	   $(document).keydown(function(e) {
@@ -161,7 +164,7 @@ $('document').ready(function () {
 
    $.extend({
      playSounds: function(){
-       return $("<embed src='"+arguments[0]+"' hidden='true' autostart='true' loop='false' class='playSound'>").appendTo('body');
+       return $("<embed src='"+arguments[0]+"' class='mp3player' autostart='true' loop='false' class='playSound'>").appendTo('body');
      }
    });
 

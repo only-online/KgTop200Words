@@ -1,0 +1,41 @@
+{
+  "_comment": "comment text goes here...",
+  "idata":[
+  {"id":"1",
+    "main":"test",
+    "img":"test",
+    "mtext":"test<br/>test"
+  },
+  {"id":"1","main":"бир","img":"1","mtext":"Один<br/>One"},
+  {"id":"1","main":"эки","img":"2","mtext":"Два<br/>Two"},
+  {"id":"1","main":"үч","img":"3","mtext":"Три<br/>Three"},
+  {"id":"1","main":"төрт","img":"4","mtext":"Четыре<br/>Four"},
+  {"id":"1","main":"беш","img":"5","mtext":"Пять<br/>Five"},
+  {"id":"1","main":"алты","img":"6","mtext":"Шесть<br/>Six"},
+  {"id":"1","main":"жети","img":"7","mtext":"Семь<br/>Seven"},
+  {"id":"1","main":"сегиз","img":"8","mtext":"Восемь<br/>Eight"},
+  {"id":"1","main":"тогуз","img":"9","mtext":"Девять<br/>Nine"},
+  {"id":"1","main":"он","img":"10","mtext":"Десять<br/>Ten"},
+  {"id":"1","main":"он бир","img":"11","mtext":"Одинадцать<br/>Eleven"},
+  {"id":"1","main":"он эки","img":"12","mtext":"Двенадцать<br/>Twelve"},
+  {"id":"1","main":"он үч","img":"13","mtext":"Тринадцать<br/>Therteen"},
+  {"id":"1","main":"он төрт","img":"14","mtext":"Четырнадцать<br/>Fourteen"},
+  {"id":"1","main":"он беш","img":"15","mtext":"Пятнадцать<br/>Fifteen"},
+  {"id":"1","main":"он алты","img":"16","mtext":"Шестнадцать<br/>Sixteen"},
+  {"id":"1","main":"он жети","img":"17","mtext":"Семьнадцать<br/>Seventeen"},
+  {"id":"1","main":"он сегиз","img":"18","mtext":"Восемьнадцать<br/>Eighteen"},
+  {"id":"1","main":"он тогуз","img":"19","mtext":"Девятьнадцать<br/>Nineteen"},
+  {"id":"1","main":"жыйырма","img":"20","mtext":"Двадцать<br/>Twenty"},
+  {"id":"1","main":"отуз","img":"30","mtext":"Тридцать<br/>Thirty"},
+  {"id":"1","main":"кырк","img":"40","mtext":"Сорок<br/>Forty"},
+  {"id":"1","main":"элүү","img":"50","mtext":"Пятьдесят<br/>Fifty"},
+  {"id":"1","main":"алтымыш","img":"60","mtext":"Шестьдесят<br/>Syxty"},
+  {"id":"1","main":"жетимиш","img":"70","mtext":"Семьдесят<br/>Seventy"},
+  {"id":"1","main":"сексен","img":"80","mtext":"Восемьдесят<br/>Eighty"},
+  {"id":"1","main":"токсон","img":"90","mtext":"Девяносто<br/>Ninety"},
+  {"id":"1","main":"жүз","img":"100","mtext":"Сто<br/>Hundred"},
+  {"id":"1","main":"миң","img":"1000","mtext":"Тысяча<br/>Thousand"}
+
+  ]
+
+}
