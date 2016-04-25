@@ -1,3 +1,34 @@
+$(document).ready(function () {
+    $.ajax({
+        type: "GET",
+        url: "db/db.xml",
+        dataType: "xml",
+        success: xmlParser
+    });
+});
+
+function xmlParser(xml) {
+
+
+    $(xml).find("menu").each(function () {
+
+        $("#menu").append('<li class="col-md-6 col-sm-6 col-xs-12" ><a href="'+$(this).find("url").text()+'"onclick="return false;" data-ajax="false" data-transition="slidedown" class="dbdb"><div class="designbox1"><img src="'+ $(this).find("img").text() +'"class="img-thumbnail" /><h3>'+ $(this).find("title").text() +'<br/><span> '+ $(this).find("ruseng").text() +'</span></h3></div></a></li>');
+
+    });
+    var a =1;
+    $('.dbdb').click(function(){
+        var b = $(this).attr('href');
+        window.a = b;
+        $('.side-body').fadeOut(100);
+        $('.site-page').fadeIn(100);
+
+  });
+  $('.site-page').append('<p>'+a+'</p>');
+};
+
+
+
+
 $(function () {
     $('.navbar-toggle').click(function () {
         $('.navbar-nav').toggleClass('slide-in');
@@ -61,7 +92,7 @@ $('document').ready(function () {
 
 
 
-	  var ChangeImage = function($param) {   $('#itemimage').attr("src", 'assets/'+nText[$param].img+'.jpg');   };
+	  var ChangeImage = function($param) { alert($param); $('#itemimage').attr("src", 'assets/'+nText[$param].img+'.jpg');   };
 	  var ChangeText = function($param) {
 		  $('#mainnum').replaceWith('<h3 id="mainnum">'+nText[$param].main+'</h3>');
 		  $('#text').replaceWith('<h4 id="text">'+nText[$param].mtext+'</h4>');
@@ -181,3 +212,9 @@ $('document').ready(function () {
      }
 
      document.addEventListener("deviceready", onDeviceReady, false);
+
+
+    //  $currenturl = $(window.location).attr('href');
+    //  alert($currenturl);
+    //  $currenturl = $currenturl.substring(0, $currenturl.length - 5);
+    //  window.location.replace($currenturl);

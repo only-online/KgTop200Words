@@ -697,3 +697,10 @@ visibility: hidden;}
 }
 
 .designbox2 a{font-size: 24px;}
+
+
+.site-page{
+	display:none;
+	margin-left: 0px;
+	margin-top: 60px;
+}

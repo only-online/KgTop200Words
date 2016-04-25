@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="utf-8"?>
+<words>
+  <!--start content-menu -->
+  <menus>
+    <menu>
+    <img>images/numbers.png</img>
+    <title>Сандар</title>
+    <ruseng>Цифры / Counting</ruseng>
+    <url>number</url>
+    </menu>
+    <menu>
+    <img>images/color.png</img>
+    <title>Түстөр</title>
+    <ruseng>Цвета / Colors</ruseng>
+    <url>colors</url>
+    </menu>
+    <menu>
+    <img>images/shapes.png</img>
+    <title>Калыптар</title>
+    <ruseng>Фигуры / Shapes</ruseng>
+    <url>shapes</url>
+    </menu>
+    <menu>
+    <img>images/animals.png</img>
+    <title>Жаныбарлар</title>
+    <ruseng>Животные / Animals</ruseng>
+    <url>animals</url>
+    </menu>
+    <menu>
+    <img>images/food.png</img>
+    <title>Тамак-аш</title>
+    <ruseng>Еда / Food</ruseng>
+    <url>food</url>
+    </menu>
+    <menu>
+    <img>images/body.png</img>
+    <title>Дене</title>
+    <ruseng>Части тела / Body</ruseng>
+    <url>body</url>
+    </menu>
+    <menu>
+    <img>images/home.png</img>
+    <title>Үйдө</title>
+    <ruseng>Дома / At home</ruseng>
+    <url>home</url>
+    </menu>
+    <menu>
+    <img>images/street.jpg</img>
+    <title>Эшикте</title>
+    <ruseng>Улица / Street</ruseng>
+    <url>street</url>
+    </menu>
+    <menu>
+    <img>images/action.jpg</img>
+    <title>Аракет этиштери</title>
+    <ruseng>Действия / Actions</ruseng>
+    <url>action</url>
+    </menu>
+  </menus>
+  <!--end content-menu -->
+
+  <numbers>
+    <number>
+      <kg>Бир</kg>
+      <img>1</img>
+      <ruseng>Один<br/>One</ruseng>
+    </number>
+    <number>
+      <kg>"Эки"</kg>
+      <img>2</img>
+      <ruseng>Два<br/>Two</ruseng>
+    </number>
+    <number>
+      <kg>үч</kg>
+      <img>3</img>
+      <ruseng>Три<br/>Three</ruseng>
+    </number>
+    <number>
+      <kg>төрт</kg>
+      <img>4</img>
+      <ruseng>Четыре<br/>Four</ruseng>
+    </number>
+    <number>
+      <kg>беш</kg>
+      <img>5</img>
+      <ruseng>Пять<br/>Five</ruseng>
+    </number>
+    <number>
+      <kg>алты</kg>
+      <img>6</img>
+      <ruseng>Шесть<br/>Six</ruseng>
+    </number>
+    <number>
+      <kg>жети</kg>
+      <img>7</img>
+      <ruseng>Семь<br/>Seven</ruseng>
+    </number>
+    <number>
+      <kg>сегиз</kg>
+      <img>8</img>
+      <ruseng>Восемь<br/>Eight</ruseng>
+    </number>
+    <number>
+      <kg>тогуз</kg>
+      <img>1</img>
+      <ruseng>Один<br/>One</ruseng>
+    </number>
+    <number>
+      <kg>Бир</kg>
+      <img>1</img>
+      <ruseng>Один<br/>One</ruseng>
+    </number>
+    <number>
+      <kg>Бир</kg>
+      <img>1</img>
+      <ruseng>Один<br/>One</ruseng>
+    </number>
+    <number>
+      <kg>Бир</kg>
+      <img>1</img>
+      <ruseng>Один<br/>One</ruseng>
+    </number>
+    <number>
+      <kg>Бир</kg>
+      <img>1</img>
+      <ruseng>Один<br/>One</ruseng>
+    </number>
+    <number>
+      <kg>Бир</kg>
+      <img>1</img>
+      <ruseng>Один<br/>One</ruseng>
+    </number>
+  </numbers>
+
+
+</words>
